@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="/Assets/Icons/Login.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="body d-flex justify-content-center align-items-center">
+      <div class="mainDiv bg-white rounded-2 w-50 p-2">
+        <div class="m-3 text-center">
+          <h1 class="mb-2"><b>Login</b></h1>
+          <p class="text-muted">Enter your email or password to login</p>
+        </div>
+
+        <div>
+          <div class="form-floating m-3">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="name@example.com"
+            />
+            <label for="email">Email address</label>
+          </div>
+          <div class="form-floating m-3">
+            <input
+              type="password"
+              class="form-control"
+              id="pw"
+              placeholder="Password"
+            />
+            <label for="pw">Password</label>
+          </div>
+          <div class="d-flex justify-content-center mb-3">
+            <button
+              type="button"
+              class="rounded-5 btn btn-login w-100 ms-3 me-3"
+              onclick="check()"
+            >
+              <b> Login</b>
+            </button>
+          </div>
+          <div class="d-flex justify-content-center mb-4">
+            Not a member?
+            <a target="_self" href="signUp.html" class="ms-1 link-info"
+              >SignUp Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="Assets/javaScript/formValidation.js"></script>
+    <!--bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <!--fontawsome -->
+    <script
+      src="https://kit.fontawesome.com/2932318f3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
